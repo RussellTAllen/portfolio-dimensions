@@ -1,4 +1,17 @@
 ---
 label: portfolio_CMS
 hide_body: true
-fields: []
+fields:
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Edit this field to describe the project you are posting
+  hidden: false
+- name: project_thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: Project thumbnail
+  description: Thumbnail image of your project
